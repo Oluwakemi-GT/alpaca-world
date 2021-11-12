@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import AccessoriesButton from './components/accessories-button';
 
 function App() {
   return (
@@ -15,9 +16,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Alpaca World
         </a>
       </header>
+
+      <p>
+      <AccessoriesButton/>
+      </p>
+
     </div>
   );
 }
