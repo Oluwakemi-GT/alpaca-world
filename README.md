@@ -1,5 +1,5 @@
 # alpaca-world
-A side project to learn more about JavaScript, and React.
+A side project, with my mentor Jessica, to learn more about JavaScript, and React.
 
 # DevProjects - Alpaca image generator website
 
