@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# alpaca-world
+A side project, with my mentor Jessica, to learn more about JavaScript, and React.
+
+# DevProjects - Alpaca image generator website
+
+This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
+Find the project requirements here: [Alpaca image generator website](https://www.codementor.io/projects/web/alpaca-image-generator-website-ce2oc0eus8)
+
+## Tech/framework used
+Built with ___
+
+## Screenshots and demo
+Screenshots of your app and/or a link to your live demo
+
+## Installation
+Instructions for other developers on how to install and run your code on their local environment.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
+>>>>>>> ce1cb2e8b60e8f501d37d7f40d06d92a9b0d37fa
