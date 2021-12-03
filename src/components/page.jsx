@@ -1,5 +1,5 @@
 import React from "react";
-import AccessoriesButton from "./accessories-button";
+import AccessoriesPanel from "./accessories-panel";
 
 
 // Good practice to have a page, to break down code. Especially for multipage website.
@@ -10,7 +10,7 @@ function Page() {
 
     return <div>
         <h1> This is a panel.</h1>
-        <AccessoriesButton />
+        <AccessoriesPanel />
     </div>;
     
 }
