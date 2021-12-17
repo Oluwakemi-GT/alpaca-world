@@ -8,17 +8,12 @@ import FeaturesButton from "./features-button";
 
 function Page() {
 
-    const featureList = ['Background', 'Hair', 'Ears', 'Eyes', 'Legs', 'Mouths', 'Necks', 'Accessories'];
+    const featureList = ['Background', 'Hair', 'Ears', 'Eyes', 'Legs', 'Mouths', 'Necks', 'Accessories'];  //array
 
-    const featureButtons = 'Ears';
-// const featureButtons = featureList.map((feature) =>                                           //function to create feature button from looping feature list.
-
-
-
+    //below is a map funtion to reiterate items in featureList array. Key is used to create unique identifiers for each button. Only needed when there is a list of things.                                
     return <div>
-        <section>{featureButtons}</section>
         <h1> This is a panel.</h1>
-        <FeaturesButton feature='Ears'/>
+        {featureList.map((feature) => <FeaturesButton key={feature} featureName={feature}/>)}     
     </div>;
 
 

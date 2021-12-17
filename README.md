@@ -20,3 +20,6 @@ Instructions for other developers on how to install and run your code on their l
 Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
 
 
+To do:
+-Set state
+-Create second set of buttons 

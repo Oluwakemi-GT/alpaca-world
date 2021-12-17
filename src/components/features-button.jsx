@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-function FeaturesButton({feature}) {                                  //function component (like a class) which is why it starts with a capital letter.
+function FeaturesButton({featureName}) {                                  //function component (like a class) which is why it starts with a capital letter.
     
 
     function setAccessory() {
@@ -11,7 +11,7 @@ function FeaturesButton({feature}) {                                  //function
     }
                                                                       //onClick calls features button in section beacuse it needs to go somewhere (maybe try without amd see what happens).
     
-    return <button onClick={setAccessory}>{feature} Button</button>   //always return HTML (HTML returns don't need semi-colons)
+    return <button onClick={setAccessory}>{featureName} Button</button>   //always return HTML (HTML returns don't need semi-colons)
 }
 
 export default FeaturesButton;
